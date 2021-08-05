@@ -1,0 +1,16 @@
+body,p,h1,h3,h4,h5,h6,h2,ul,dl,ol,dd,hr,input,textarea,td,th,fieldset,option,legend,button,span{margin:0; padding:0;}
+li{list-style: none;}
+a{text-decoration: none; color:#000;}
+body{font-size:12px;}
+h1,h3,h4,h5,h6,h2,b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+input,a,area{outline: none;}
+img{display: block; border:none}
+table{border-collapse: collapse;}   
+html,body{width:100%;}  
+
+.clear:after{content:""; display: block; clear: both; height: 0; visibility: hidden;}
+.clear{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+

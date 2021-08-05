@@ -1,0 +1,213 @@
+/*user_enroll*/
+.user_enroll{
+	width:988px;
+	margin:0 auto;
+}
+.logoImgages{
+	width:100%;
+	padding:12px 0;
+}
+.logoImgages a{
+	display: inline-block;
+	padding-right:12px;
+	float:left;	
+}
+.logoImgages i{
+	display: inline-block;
+	height:38px;
+	font-size: 20px;
+	line-height: 38px;
+	border-left:2px solid #aaa;
+	padding-left:15px;
+	margin:13px 0 0;
+	float:left;
+	font-weight: 800;
+}
+.logoImgages:after{
+	content: "";
+	display: block;
+	height:0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+/*form表单注册*/
+.form{
+	width:988px;
+	margin:0 auto;
+	background: #fff;
+}
+.form_left{
+	width:560px;
+	padding:20px 0;
+	margin:25px 0;
+	border-right:#e7e7e7 solid 1px;
+	text-align: center;
+}
+.form_left .registe_type{
+	width:100%;
+	margin-bottom: 22px;
+}
+.registe_type>span{
+	margin-right:33px;
+}
+.registe_massage{
+	width:100%;
+	text-align:start;
+}
+/*图标*/
+.registe_massage li>i{
+	display: inline-block;
+	height:20px;
+	width:20px;
+	font-size: 20px;
+}
+.registe_massage li{
+	margin:4px 0 0;
+}
+.form_left .names{
+	width:158px;
+	font-size: 14px;
+	line-height: 40px;
+	height:40px;
+	display: inline-block;
+	text-align: end;
+	color:#737272;
+}
+.form_left .registe_massage_li input{
+	width:240px;
+	height:38px;
+	padding:0 35px 0 5px;
+	border:#ccc 1px solid;
+	outline: none;
+}
+.form_left .registe_massage_li p{
+	margin-left:163px;
+	color:red;
+	font-weight: bold;
+	line-height:30px;
+	height:30px;
+	display:block;
+}
+.form_left .registe_massage_li p i{
+	display: none;
+}
+.form_left #ID_code input{
+	width:108px;
+	padding:0 0 0 5px;
+	margin-right: 9px;
+}
+.form_left #ID_code .span_{
+	font-size: 20px;
+}
+.form_left .massage_Idcode input{
+	width:149px;
+	padding:0 0 0 5px;
+}
+.hq_Idcode{
+	font-size: 16px;
+	display: inline-block;
+	width:123px;
+	color:#666;
+	text-align: end;
+}
+/*agreement协议*/
+.form_left .agreement{
+	height:16px;
+	text-align: center;
+	margin-top: 10px;
+}
+.form_left .agreement a{
+	color:#0048FF;
+}
+/*zc_btn注册按钮*/
+.form_left .zc_btn{
+	height:40px;
+	margin-top:20px;
+	text-align: center;
+}
+.form_left .zc_btn a{
+	display: inline-block;
+	width:292px;
+	background: #ff9700;
+	line-height: 40px;
+	height:40px;
+	font-size: 14px;
+	color:#fff;
+}
+
+.form_right p{
+	display:block;
+	width:424px;
+	height:16px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	margin-top:34px;
+}
+.form_right a{
+	color:#0048FF;
+	margin:0 2px;
+	font-weight: 800;
+}
+
+
+
+
+
+.form:after{
+	content: "";
+	display: block;
+	height:0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+.sideBar_right{
+	position:fixed;
+	right:10px;
+	bottom:50px;
+}
+.sideBar_right div{
+	height:50px;
+	width:50px;
+	text-align: center;
+	margin:10px 0;
+	background: #fff;
+	border:#666 solid 1px;
+}
+
+.sideBar_right div i{
+	font-size: 30px;
+	color:#666;
+}
+.sideBar_right div:nth-of-type(2) ul{
+	display: none;
+	position:absolute;
+	top:10px;
+	left:-710px
+}
+.sideBar_right div:nth-of-type(2) ul li{
+	float:left;
+	border:1px solid #666;
+	padding:10px;
+	margin-left:10px;
+	background: #fff;
+}
+.sideBar_right div:nth-of-type(2) ul li p{
+	color:#000;
+	margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+

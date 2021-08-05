@@ -1,0 +1,32 @@
+#end{
+	width:1200px;
+	margin:0 auto;
+	text-align: center;
+	height:224px;
+}
+/*.ending{height:16px;}*/
+.ending>a{
+	color:#666;
+	border-right:1px solid #666;
+	display:inline-block;
+	width:82px;
+	height:16px;
+	font-size: 14px;
+	line-height: 1em;
+	margin:30px 0 16px;
+}
+.ending>a:last-of-type{
+	border:none;
+}
+#end>*{
+	color:#666;
+	line-height: 16px;
+}
+#end>div:last-of-type i{
+	display: inline-block;
+	height:48px;
+}
+#end>div:last-of-type i img{
+	height:100%;
+	margin:30px 0 0 20px;
+}
